@@ -1,0 +1,126 @@
+body{
+	background-image: url("img/login-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center fixed;
+}
+
+.success{
+	color: green;
+}
+.error{
+	color: red;
+}
+
+
+i.fa-power-off {
+    color: white;
+    background: #F00;
+    padding: 3px;
+    text-align: center;
+    border-radius: 100%;
+}
+.dropdown-menu>li>a>i.fa-power-off:focus {
+    color: #F00 !important;
+    background: none;
+}
+
+.login_panel_page{
+	padding-top:100px;
+padding-bottom:140px;
+}
+.login_panel{
+box-shadow: 0px 2px 12px -3px #000;
+border-radius: 5px;
+background: rgba(0, 0, 0, 0.05);
+border: 1px solid #575757;
+text-align: center;
+color:#FFF;
+}
+.login_heading{
+	margin-top: -10px;
+}
+.login_heading h3{
+	border-bottom: 1px solid #575757;
+	padding-bottom:10px;
+	font-family: 'Baloo Thambi', cursive;
+}
+.login_body{
+	padding:20px;
+}
+#input_gap_down{
+margin-bottom: 20px;
+box-shadow: 1px 2px 4px 1px #0006;
+border: 1px solid #7D7D7D66;
+border-radius: 5px;
+
+    border-bottom: 1px solid #fff;
+}
+#input_gap_down div, #input_gap_down input{
+	background:none;
+	border:none;
+	color:#999;
+}
+#input_gap_down i{
+	color: #BBB;
+}
+#input_gap_down input:focus{
+	color:#FFF;
+}
+#submit_btn{
+width: 100%;
+box-shadow: 0px 2px 5px -1px #000000B3
+}
+.login_panel h5 a{
+	text-decoration:none;
+	color:#FFF;
+}
+.login_panel h5 a:hover{
+	color:orange;
+}
+
+
+
+
+/*Table Data Design*/
+.table-responsive{}
+.table-responsive thead{}
+.table-responsive thead tr{}
+.table-responsive thead tr th{
+	vertical-align: top;
+	text-align:center;
+}
+
+.page-header{
+	margin:0;
+}
+.our_table_head{
+	
+}
+.tbl-no-center{
+	text-align:center;
+}
+
+
+/*Monthly Audit Report Page*/
+.monthly_audit_rp{}
+.monthly_audit_rp .table{}
+.monthly_audit_rp .table tr{}
+.monthly_audit_rp .table tr td{
+	padding:2px;
+	border:1px solid gray;
+}
+.monthly_audit_rp .table tr th{
+	padding:5px;
+}
+
+
+
+/*Audit Ans Sheet View Page*/
+.audit_ans_sheet_view{}
+.audit_ans_sheet_view table{}
+.audit_ans_sheet_view table{}
+.audit_ans_sheet_view table tr{}
+.audit_ans_sheet_view table tr td{
+	text-align:justify;
+}
